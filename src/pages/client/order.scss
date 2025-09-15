@@ -1,0 +1,64 @@
+.order {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  img {
+    width: 10%;
+  }
+  .main-text {
+    flex: 1;
+    padding: 0 20px;
+  }
+  .price {
+    padding: 0 30px;
+  }
+  input {
+  }
+  .total-price {
+    margin: 0 100px;
+  }
+  .btn-remove {
+    margin-right: 10px;
+  }
+}
+
+.check-order {
+  background-color: #fff;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  .check-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn-buy {
+    button {
+      width: 100%;
+      padding: 14px 0;
+      font-size: 15px;
+      color: #fff;
+      background-color: rgb(243, 66, 43);
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+  }
+}
+
+.step {
+  background-color: #fff;
+  padding: 1px 20px 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+}

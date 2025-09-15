@@ -1,0 +1,19 @@
+
+.login-container {
+
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 20px 40px;
+
+
+    .login-title {
+        margin-bottom: 30px;
+        padding: 20px 0;
+        border-bottom: 1px solid #f4f2f2;
+    }
+}

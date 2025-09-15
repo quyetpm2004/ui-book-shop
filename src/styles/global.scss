@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  .pop-cart-body {
+    width: 400px;
+    padding: 10px 20px 10px 0;
+    .pop-cart-content {
+      padding: 10px 0;
+      .book {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        img {
+          width: 16%;
+        }
+        .main-text {
+          flex: 1;
+          padding: 0 10px;
+        }
+        .price {
+          color: rgb(244, 74, 52);
+          font-weight: 500;
+        }
+      }
+    }
+    .pop-cart-footer {
+      display: flex;
+      justify-content: end;
+      button {
+        padding: 10px 16px;
+        color: #fff;
+        background-color: rgb(244, 74, 52);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+.color-price {
+  color: rgb(243, 66, 43);
+  font-size: 20px;
+}
